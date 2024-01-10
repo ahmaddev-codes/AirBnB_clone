@@ -129,11 +129,11 @@ FAILED (failures=1)
 
 * 📈 __Performance Analysis:__ Collect metrics, analyze execution times, and optimize your application for a top-notch user experience.
 
-### Authors
+### Authors and Contributors
 * __Tijani Sheu__
     * Github - [@iahm-codes](https://www.github.com/iahm-codes)
     * Email - tijanisheuolamilekan@gmail.com
-    * Twitter - [@ahmad.dev](https://twitter.com/AhmadPMTijani)
+    * Twitter - [@AhmadPMTijani](https://twitter.com/AhmadPMTijani)
     * LinkedIn - [Tijani Sheu](https://www.linkedin.com/in/sheutijani/)
 
 * __Fassal farah__
