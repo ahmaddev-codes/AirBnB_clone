@@ -175,7 +175,7 @@ class HBNBCommand(cmd.Cmd):
 
         with open(regex_filepath, "r", encoding="utf8") as file:
             cmdPattern = file.readline().strip()
-            paramsPattern = file.readline().strip
+            paramsPattern = file.readline().strip()
 
         match = re.match(cmdPattern, line)
 
