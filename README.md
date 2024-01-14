@@ -137,3 +137,7 @@ FAILED (failures=1)
     * LinkedIn - [Tijani Sheu](https://www.linkedin.com/in/sheutijani/)
 
 * __Fassal farah__
+    * Github - [@03farahfassal](https://github.com/03farahfassal)
+    * Email - farahfassal32@gmail.com
+    * Twitter - [farah_fassal](https://twitter.com/farah_fassal)
+    * LinkedIn - [Farah Fassal](https://www.linkedin.com/in/farah-fassal/)
