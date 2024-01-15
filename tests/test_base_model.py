@@ -5,12 +5,11 @@ for the BaseModel class
 
 
 import unittest
-import uuid
 from models.base_model import BaseModel
+import uuid
 
 
 class TestBaseModel(unittest.TestCase):
-    """Unittest tests for the BaseModel class"""
 
     def setUp(self):
         self.Model = BaseModel()
@@ -40,9 +39,17 @@ class TestBaseModel(unittest.TestCase):
     def test_model_instance(self):
         self.assertFalse(self.new_Model is self.Model)
 
-    def test_kwargs(self):
-        self.assertTrue()
+    def test_init_with_kwargs(self):
+        kwargs = {
+            'id': 'test_id',
+            'created_at': '2022-01-01T12:00:00.000000',
+            'updated_at': '2022-01-02T12:00:00.000000',
+            'custom_attribute': 'custom_value'
+        }
+        custom_model = BaseModel(**kwargs)
+        self.assertEqual(custom_model.id, 'test_id')
+        self.assertEqual(custom_model.custom_attribute, 'custom_value')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
