@@ -3,6 +3,5 @@ header {
     height: 70px;
     padding-left: 20px;
     background: white;
-    border-bottom: 1px;
-    border-color: #cccccc;
+    border-bottom: 1px solid #CCCCCC;
 }
